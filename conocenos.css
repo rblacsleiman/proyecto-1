@@ -1,0 +1,190 @@
+*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ @import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Crimson+Text:ital,wght@0,400;1,600 & display=swap');
+
+body{
+    background-color: #212529;
+}
+
+
+#idComentarios{
+
+    width: 100%;
+    background:#24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+.formin{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    margin-left: 35%;
+    margin-bottom: 50%;
+    z-index: 10;
+
+    
+}
+
+.formin h5{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.controls{
+    width: 100%;
+    background:#24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+
+.colore{
+    color: white;
+}
+
+.formin p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+
+}
+
+.formin a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.formin .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0 ;
+    font-size: 16px;
+}
+
+
+#idAsunto{
+
+    width: 100%;
+    background:#24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.nab-style{
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #a62733;
+    background-color: #29988e;
+}
+.imagennav{
+    width: 50px;
+    height: auto;
+}
+.amarillo{
+    color: #fd3
+}
+ .futer{
+    display: flex;
+    background-color: #29988e;
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    margin-top: 100px;
+}
+.desarrollado{
+    width: 43%;
+    height: 20%; 
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+   
+    
+}
+.face-style{
+    display: flex;
+    margin: 2rem;
+    background-color: #29988e;
+    border-radius: 2rem;
+    padding: 3px;
+}
+.juntar{
+    display: flex;
+}
+.letra{
+    font-family: 'Crimson Text', serif;
+    color: white;
+    
+}
+.fondo{
+    background-color: white;
+}
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid #29988e
+  }
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+.footer-style {
+    background-color: #29988e;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+.face-style {
+    display: flex;
+    margin: 2rem;
+    background-color: #29988e;
+    border-radius: 2rem;
+    padding: 3px;
+}
+    
+.letras-style{
+    color: #fff;
+}

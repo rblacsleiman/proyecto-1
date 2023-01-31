@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilosindex.css">
+  <script src="https://kit.fontawesome.com/d106db4229.js" crossorigin="anonymous"></script>
+  <title> Turismo Argentino </title>
+  <link rel="icon" href="./css/imagenes/WhatsApp Image 2022-12-06 at 19.11.47.jpeg">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-info  navbar navbar-dark img-fluid nab-style styki-top sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <img class="imagennav" src="./css/imagenes/WhatsApp Image 2022-12-06 at 19.11.47.jpeg" alt="logo2">
+      </a>
+      <a class="navbar-brand d-none d-md-inline-block" href="#">TURIS<spam class="amarillo">MO ARGE</spam>NTINA </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse letra-style" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Destinos
+            </a>
+            <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+              <div class="fondo">
+                <li><a class="dropdown-item " href="#"> Noroeste</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Sierras y Cuyo </a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Buenos Aires</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Costa Atlántica</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Litoral </a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./card-patagonia.html"> Patagonia </a></li>
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./conocenos.html">Conocenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto </a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="./error404.html"> Paquetes </a>
+          </li>
+        </ul>
+        <button type="button" class=" btn btn-primary mx-3 navbar-expand-lg navbar-info" data-bs-toggle="modal"
+          data-bs-target="#modalviajar" justify-content="around">
+          <i class="fa-solid fa-user-plus me-1"></i>
+          <span> Ingresar </span>
+        </button>
+        <form class="d-none d-md-flex mx-5">
+          <input class="form-control me-4 mx-2" type=search placeholder="Buscar Destino" aria-label="Search">
+          <button class="btn btn-primary" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+      <!-- Button trigger modal -->
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="modalviajar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="text-white">
+        <div class="modal-content bg-secondary">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> Ingresa tu Usuario y Contraseña</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class=" letra-cursiva">
+                <div class="my-4">
+                  <label for="idusuario">
+                    <strong class="mx-3"> Usuario: </strong>
+                    <input id="idusuario" name="nameusuario" type="text" placeholder="viajando@gmail.com">
+                  </label>
+                </div>
+              </div>
+              <div class=" letra-cursiva">
+                <label for="idcontraseña">
+                  <strong class="mx-3"> Contaseña: </strong>
+                  <input id="idcontraseña" name="namecontraseña" type="password">
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="mx-4">
+            <input type="radio" name="recordarusuario" id="recordarusuario">
+            <label for="recordarusuario"> Redordar Usuario</label>
+          </div>
+          <div class="letra-cursiva">
+            <div class="mx-4">
+              <strong> ¿No tienes cuenta aún? </strong>
+              <a href="./formularioderegistro.html"><button type="button"
+                  class="btn btn-primary mx-2">Registrate</button> </a>
+            </div>
+          </div>
+          <br>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Cerrar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ingresar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-subheading">Bienvenidos a Turismo Argentina</div>
+      <img class="imagenheader" src="./css/imagenes/WhatsApp Image 2022-12-06 at 19.11.47.jpeg" alt="">
+      <div class="masthead-heading text-uppercase">Te invitamos a explorar lo que Argentina tiene para ofecerte</div>
+  </div>
+  </header>
+ <!-- Portfolio Grid-->
+ <section class="page-section bg-dark my-5" id="portfolio">
+  <div class="container">
+      <div class="text-center">
+          <h3 class="section-subheading text-light my-5"> <em> <u> Investiga los lugares imperdibles de nuestro país </u> </em></h3>
+      </div>
+      <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+              <!-- Portfolio item 1-->
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"> <i class="fa-solid fa-circle-info fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="./css/imagenes/mardel.jpg" alt="..." />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Costa Atlántica</div>
+                      <div class="portfolio-caption-subheading text-muted">Mira lo que la Costa Atlántica Argentina tiene para ofrecete</div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+              <!-- Portfolio item 2-->
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fa-solid fa-circle-info fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="./css/imagenes/noa.jpg" alt="..." />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Noroeste</div>
+                      <div class="portfolio-caption-subheading text-muted">Mira lo que el Noroeste Argentino tiene para ofrecete </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+              <!-- Portfolio item 3-->
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-bs-toggle="modal" href="./card-patagonia.html">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fa-solid fa-circle-info fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="./css/imagenes/5c1cc706267be-wallpaper-preview.jpg" alt="..." />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Patagonia</div>
+                      <div class="portfolio-caption-subheading text-muted">Mira lo que la Patagonia Argentina tiene para ofrecete</div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+              <!-- Portfolio item 4-->
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fa-solid fa-circle-info fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="./css/imagenes/cuyo.jpg" alt="..." />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading"> Sierras y Cuyo</div>
+                      <div class="portfolio-caption-subheading text-muted">Mira lo que las Sierras y Cuyo tienen para ofrecete</div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+              <!-- Portfolio item 5-->
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fa-solid fa-circle-info fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="./css/imagenes/bsas.jpg" alt="..." />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Buenos Aires</div>
+                      <div class="portfolio-caption-subheading text-muted">Mira lo que Buenos Aires tiene para ofrecete</div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <!-- Portfolio item 6-->
+              <div class="portfolio-item">
+                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fa-solid fa-circle-info fa-3x"></i></div>
+                      </div>
+                      <img class="img-fluid" src="./css/imagenes/litoral.jpg" alt="..." />
+                  </a>
+                  <div class="portfolio-caption">
+                      <div class="portfolio-caption-heading">Litoral</div>
+                      <div class="portfolio-caption-subheading text-muted">Mira lo que el Litoral rgentino tiene para ofrecete</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page-section bg-dark" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="section-subheading text-light my-5"> <em> <u> Últimas Entradas del Blog </u> </em></h3>
+            </div>
+            <div class=" contaniner row d-flex justify-content-around">
+                <div class="col-lg-4 col-sm-6 mb-4 ultimasEntradas bg-light">
+                    <div class="portfolio-item">
+                            <img class="img-fluid my-3" src="./css/imagenes/cataratas.png" alt="...">                 
+                        <div class="portfolio-caption">
+                            <div class="bg-danger my-2 text-light"> <strong> IMPORTANTE </strong> </div>
+                            <div class="my-4"> <p>Las Cataratas del Iguazú se han <strong>cerrado temporalmente </strong> por las crecidas provenientes de Brasil</p> </div>
+                              <button type="button" class="btn btn-warning"> <strong>+Más Información </strong> </button> <div class="fecha my-1 "> <strong> 22/11/2022 </strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 ultimasEntradas bg-light">
+                  <div class="portfolio-item">
+                    <img class="img-fluid my-3" src="./css/imagenes/El aeropuerto de Ushuaia se ha reabierto luego del huracan Catrina que había dejado varias de las pistas averiadas.png" alt="..." /> 
+                    <div class="portfolio-caption">
+                      <div class="bg-danger my-2 text-light"> <strong> IMPORTANTE </strong> </div>
+                      <div class="my-4"> <p> El aeropuerto de Ushuaia se ha <strong> reabierto </strong> luego del huracan "Catrina" que había dejado
+                        varias de las pistas averiadas</p> </div>
+                        <button type="button" class="btn btn-warning"> <strong>+Más Información </strong> </button> <div class="fecha my-1"> <strong> 20/11/2022 </strong></div>
+                  </div>    
+                </div>
+              </div>
+            </div>
+         </div>   
+      </section>
+<article>
+  <!--
+  <section>
+      <div class="text-center">
+       <h3 class="section-subheading text-light my-5 d-flex justify-content-start mx-5"> <u> Comentarios </u></h3>
+     </div>
+            
+    <div class="container comentarios bg-light my-5" >
+     <div class="d-flex justify-content-start">
+       <img class="rounded-circle mx-5 my-4" src="./css/imagenes/comentario1.jpg" alt="">
+       <div> 
+         <div class="my-4">
+           <p> <strong>Messi</strong></p>
+           <p class="text-muted">25 noviembre, 2022 a las 9:39 am</p>
+         </div>
+       </div>
+     </div>
+     <hr>
+      <div class="container my-4 d-flex justify-content-center">
+       <p>Hola!
+        me hice un tiempito para ver esta pag, la re recomiendo. bue, la verdad que este grupo se merece ser alumnos destacados. 
+        La verdad que es una alegría ver que seabrió otra vez el aeropuerto de Ushuaia, tenía pensado ir a vacacionar con Antonella.
+        un saludo
+       </p>
+     </div>
+    </div>
+   
+    <div class="container comentarios bg-light my-5" >
+      <div class="d-flex justify-content-start">
+        <img class="rounded-circle mx-5 my-4" src="./css/imagenes/comentario1.jpg" alt="">
+        <div> 
+          <div class="my-4">
+            <p> <strong>Messi</strong></p>
+            <p class="text-muted">25 noviembre, 2022 a las 9:39 am</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+       <div class="container my-4 d-flex justify-content-center">
+        <p>Hola!
+         me hice un tiempito para ver esta pag, la re recomiendo. bue, la verdad que este grupo se merece ser alumnos destacados. 
+         La verdad que es una alegría ver que seabrió otra vez el aeropuerto de Ushuaia, tenía pensado ir a vacacionar con Antonella.
+         un saludo
+        </p>
+      </div>
+     </div>
+    
+  </section>
+</article>
+-->
+<article class="container bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 my-3">
+        <div class="comment">
+          <img src="./css/imagenes/comentario1.jpg" class="avatar rounded-circle">
+          <div class="content">
+            <div class="name my-3">Messi <p class="text-muted">25 noviembre, 2022 a las 9:39 am</p></div>
+            <hr>
+            <p class="text">Hola!
+              me hice un tiempito para ver esta pag, la re recomiendo. bue, la verdad que este grupo se merece ser alumnos destacados. 
+              La verdad que es una alegría ver que seabrió otra vez el aeropuerto de Ushuaia, tenía pensado ir a vacacionar con Antonella.
+              un saludo</P>
+          </div>
+        </div>
+      </div>
+</article>
+
+<article class="bg-light container my-5">
+    <div class="container">
+       <div class="row">
+          <div class="col-sm-12 my-3">
+             <div class="comment">
+               <img src="./css/imagenes/muere-maradona-1606326764.jpg" class="avatar rounded-circle">
+                <div class="content">
+                    <div class="name my-3">Maradona <p class="text-muted">27 noviembre, 2022 a las 10:30 pm</p></div>
+                    <hr>
+                     <p class="text"> eeeeeeeeeeeeeeeeeeeeeeeh gracias por la Información, eeeeeeeeeeeeeeeeeeeeh se me suspendio el viaje a cataratas.</P>
+                </div>
+             </div>
+           </div>
+       </div>
+   </div>
+</article>
+<article class="bg-light container my-5">
+  <div class="container">
+     <div class="row">
+        <div class="col-sm-12 my-3">
+           <div class="comment">
+             <img src="./css/imagenes/rolling.png" class="avatar rounded-circle">
+              <div class="content">
+                  <div class="name my-3">Fernando Rolling <p class="text-muted">30 noviembre, 2022 a las 7:00 am</p></div>
+                  <hr>
+                   <p class="text"> che, muy buena esta pagina. Pasen a estos chicos a estudiantes destacados</P>
+              </div>
+           </div>
+         </div>
+     </div>
+ </div>
+</article><article class="bg-light container my-5">
+  <div class="container">
+     <div class="row">
+        <div class="col-sm-12 my-3">
+           <div class="comment">
+             <img src="./css/imagenes/rolling.png" class="avatar rounded-circle">
+              <div class="content">
+                  <div class="name my-3">Rodri Rolling <p class="text-muted">01 diciembre, 2022 a las 4:00 am</p></div>
+                  <hr>
+                   <p class="text"> Coincido Fer, ya lo tramito!</P>
+              </div>
+           </div>
+         </div>
+     </div>
+ </div>
+</article><article class="bg-light container my-5">
+  <div class="container">
+     <div class="row">
+        <div class="col-sm-12 my-3">
+           <div class="comment">
+             <img src="./css/imagenes/fer.jpg" class="avatar rounded-circle">
+              <div class="content">
+                  <div class="name my-3">Armando Estebanquito <p class="text-muted">05 diciembre, 2022 a las 13:00 pm</p></div>
+                  <hr>
+                   <p class="text"> excelente información tiene la pagina</P>
+              </div>
+           </div>
+         </div>
+     </div>
+ </div>
+</article>
+
+<form class="bg-light container my-5 formcomentarios">
+  <div><p> <u> Deja tu comentario </u></p></div>
+  <hr>
+  <div class="form-group my-5">
+    <label for="nombre">Nombre/Usuario</label>
+    <input type="text" class="form-control" id="nombre">
+  </div>
+  <div class="form-group my-3">
+    <label for="comentario">Comentario</label>
+    <textarea class="form-control" id="comentario" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary my-2">Enviar</button>
+</form>
+
+
+
+
+
+<!-- <section class=" text-center">
+      <div class=" entradas my-5"> 
+        <strong> Últimas Entradas </strong> 
+      </div>
+      <div class= "row-style text-center my-3 row row-cols-sm-12 row-cols-md-8 row-cols-lg-12 justify-content-center">
+        <div class="row align-items-center">
+          <div class="columna-style ">
+            <img class="fotos my-3" src="./imagenes/cataratas.jpg" alt="">
+            <h5 class="bg-danger importante-style"><strong>IMPORTANTE </strong> </h5>
+            <p class="letcataus">
+              Las Cataratas del Iguazú se han <strong>cerrado temporalmente </strong> por las crecidas provenientes de
+              Brasil
+            </p>
+            <button type="button" class="btn btn-warning"> <strong>+Más Información </strong> </button>
+            <div class="fecha my-2"> <strong> 22/12/2022 </strong></div>
+          </div>
+          <div class="columna-style  my-5">
+            <img class="fotos my-3" src="./imagenes/aeropuerto.jpg" alt="">
+            <h5 class="bg-danger importante-style"><strong>IMPORTANTE </strong> </h5>
+            <p class="letcataus">
+              El aeropuerto de Ushuaia se ha <strong> reabierto </strong> luego del huracan "Catrina" que había dejado
+              varias de las pistas averiadas
+            </p>
+            <button type="button" class="btn btn-warning"> <strong>+Más Información </strong> </button>
+            <div class="fecha my-2"> <strong> 20/12/2022 </strong></div>
+          </div>
+          <div class="columna-style ">
+            <img class="fotos my-3" src="./imagenes/mendoza.jpg" alt="">
+            <h5 class="bg-danger importante-style"><strong>IMPORTANTE </strong> </h5>
+            <p class="letcataus">
+              Las Autoridades de la Provincia de Mendoza decretaron que las personas que arriben a dicha provincia,
+              deberan <strong>obligatoriamente </strong> usar tapabocas en lugares cerrados
+            </p>
+            <button type="button" class="btn btn-warning"> <strong>+Más Información </strong> </button>
+            <div class="fecha my-2"> <strong> 16/12/2022 </strong></div>
+          </div>
+        </div>
+    </section>
+  </main>
+-->
+ 
+  <footer class="footer py-4 footer-style d-flex justify-content-center">
+    <div class="container">
+        <div class="row align-items-center text-light">
+            <div class="col-lg-3 text-lg-start">Copyright 2023 &copy; turismo@argentina</div>
+            <div class="col-lg-3 my-3 my-lg-0 footer-style">
+               <img class="imagennav" src="./css/imagenes/WhatsApp Image 2022-12-06 at 19.11.47.jpeg" alt="">
+                <a class="btn  btn-social mx-2" href="#!" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-lg-6 text-lg-end text-light">
+                <p>Desarrollado por Manuel Torres - Rosario Blac Sleiman - Valeria Sandoval</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>

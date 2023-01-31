@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body {
+    font-family: "Roboto", sans-serif !important ;
+    background-color: #212529
+}
+
+.A {
+    position: absolute;
+    font-size: 3rem;
+    margin-left: 49%;
+    margin-top: 17.5%;
+    background-color: #77b6d0;
+    color: white;
+
+}
+
+.turismos {
+    position: absolute;
+
+    font-size: 3rem;
+    margin-left: 38%;
+    margin-top: 10%;
+    background-color: #77b6d0;
+    text-shadow: 0, 0, 8px;
+    color: #fd3;
+}
+
+.turismo {
+
+    font-size: 3rem;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 25%;
+    background-color: #77b6d0;
+    text-shadow: 0, 0, 8px;
+}
+
+.vid {
+    color: #fd3;
+}
+.vide {
+    color: wheat;
+}
+
+.amarillo {
+    color: #fd3;
+}
+
+.letra {
+    color: white;
+}
+.letra-cursiva{
+    font-style: italic;
+}
+.unir {
+    display: flex;
+}
+
+.fondo {
+    background-color: white;
+}
+
+.imagen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.nab-style {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #a62733;
+    background-color: #29988e;
+}
+.card-style {
+    margin: 2rem;
+    border: solid 3px;
+    border-color: #a62733;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+.fondocard {
+    background-color: #fd3;
+}
+
+/* .card1{
+    background-color: white;
+    border: 0;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-top: 50px;
+ position: absolute;
+
+}
+.card2{
+    background-color: white;
+    border: 0;
+    border-radius: 10%;
+    margin-left: 400px;
+    margin-top: 50px;
+ position: absolute;
+}
+
+ */
+
+#idusuario:hover {
+    border-radius: 5%;
+    background-color: bisque;
+}
+#idcontraseña:hover {
+    border-radius: 5%;
+    background-color: bisque;
+}
+
+.mover {
+    position: fixed;
+}
+
+.imagenlogo {
+    width: 100px;
+}
+.argentina {
+    color: yellow;
+}
+
+.imagennav {
+    width: 50px;
+    height: auto;
+}
+
+.row-style {
+    background-color: #29988e;
+    padding: 10px;
+}
+.columna-style{
+    background-color: white;
+    margin: 5px;
+    border-radius: 30px;
+    border: solid;
+    border-color: #a62733;
+}
+
+.entradas {
+    text-align: center;
+    padding: 0.3rem;
+    background-color: #29988e;
+    color: white;
+}
+
+.fotos {
+    width: 300px;
+}
+
+.importante-style {
+    color: white;
+}
+.fecha {
+    display: flex;
+    justify-content: end;
+    color: rgb(73, 67, 67);
+    /* font-family:'Times New Roman', Times, serif; */
+}
+.buenos-style {
+    height: 142px;
+}
+.mardel-style {
+    height: 145px;
+}
+.cataratas-style {
+    height: 145px;
+}
+.carlos-style {
+    height: 145px;
+}
+
+.footer-style {
+    display: flex;
+    background-color: #29988e;
+    margin-top: auto;
+}
+.face-style {
+    display: flex;
+    margin: 2rem;
+    background-color: #29988e;
+    border-radius: 2rem;
+    padding: 3px;
+}
+header.masthead {
+    padding-top: 1rem;
+    padding-bottom: 30rem;
+    text-align: center;
+    color: #fff;
+    background-image: url(./imagenes/argentinaindex.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
+header .imagenheader{
+    width: 200px;
+}
+header.masthead .masthead-subheading {
+    font-size: 2.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+header.masthead .masthead-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-subheading {
+      font-size: 2.5rem;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+    header.masthead .masthead-heading {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+  }
+  #portfolio .portfolio-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#29988e;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+  }
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 1.25rem;
+    color: white;
+  }
+  #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+    opacity: 1;
+  }
+  #portfolio .portfolio-item .portfolio-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+  }
+  .portfolio-modal .modal-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .portfolio-modal .modal-content p.item-intro {
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  .portfolio-modal .modal-content p {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content img {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .portfolio-modal .close-modal:hover {
+    opacity: 0.3;
+  }
+
+  .section-subheading{
+    font-family: 'Roboto', sans-serif;
+  }
+
+.footer-style {
+    background-color: #29988e;
+    display: flex;
+    justify-content: center;
+}
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+.letras-style{
+    color: #fff;
+}
+
+.comentarios{
+  border: 0.2rem solid rgba(0, 0, 0, 0.5);
+}
+.rounded-circle {
+  width: 14rem;
+  height: 4rem;
+  border-radius: 50% !important;
+  width: 5%;
+}
+.ultimasEntradas{
+  border: 0.3rem solid #29988e ;
+}
+/* Estilos para el contenedor de comentarios */
+#comments {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilos para cada comentario */
+.comment {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el nombre del usuario */
+.name {
+  font-size: 18px;
+  font-weight: bold; 
+  margin-bottom: 5px;
+  color:#29988e
+}
+
+/* Estilos para el texto del comentario */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Estilos para el avatar */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Esto hace que el borde sea redondo */
+}
+.formcomentarios {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}

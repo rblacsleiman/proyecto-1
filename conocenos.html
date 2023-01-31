@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d106db4229.js" crossorigin="anonymous"></script>
+    <title>Conocenos</title>
+    <link rel="icon" href="./css/imagenes/WhatsApp Image 2022-12-06 at 19.11.47.jpeg">
+    <link rel="stylesheet" href="./css/conocenos.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-info  navbar navbar-dark img-fluid nab-style styki-top sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img class="imagennav" src="./css/imagenes/WhatsApp Image 2022-12-06 at 19.11.47.jpeg" alt="logo2">
+      </a>
+      <a class="navbar-brand d-none d-md-inline-block" href="#">TURIS<spam class="amarillo">MO ARGE</spam>NTINA </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse letra-style" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio </a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Destinos
+            </a>
+            <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+              <div class="fondo">
+                <li><a class="dropdown-item " href="#"> Noroeste</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Sierras y Cuyo </a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Buenos Aires</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Costa Atlántica</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"> Litoral </a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./card-patagonia.html"> Patagonia </a></li>
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto </a>
+          </li>
+        </ul>
+        <button type="button" class=" btn btn-primary mx-3 navbar-expand-lg navbar-info" data-bs-toggle="modal"
+          data-bs-target="#modalviajar" justify-content="around">
+          <i class="fa-solid fa-user-plus me-1"></i>
+          <span> Ingresar </span>
+        </button>
+        <form class="d-none d-md-flex mx-5">
+          <input class="form-control me-4 mx-2" type=search placeholder="Buscar Destino" aria-label="Search">
+          <button class="btn btn-primary" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+      <!-- Button trigger modal -->
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="modalviajar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="text-white">
+        <div class="modal-content bg-secondary">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> Ingresa tu Usuario y Contraseña</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class=" letra-cursiva">
+                <div class="my-4">
+                  <label for="idusuario">
+                    <strong class="mx-3"> Usuario: </strong>
+                    <input id="idusuario" name="nameusuario" type="text" placeholder="viajando@gmail.com">
+                  </label>
+                </div>
+              </div>
+              <div class=" letra-cursiva">
+                <label for="idcontraseña">
+                  <strong class="mx-3"> Contaseña: </strong>
+                  <input id="idcontraseña" name="namecontraseña" type="password">
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="mx-4">
+            <input type="radio" name="recordarusuario" id="recordarusuario">
+            <label for="recordarusuario"> Redordar Usuario</label>
+          </div>
+          <div class="letra-cursiva">
+            <div class="mx-4">
+              <strong> ¿No tienes cuenta aún? </strong>
+              <a href="./formularioderegistro.html"><button type="button"
+                  class="btn btn-primary mx-2">Registrate</button> </a>
+            </div>
+          </div>
+          <br>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Cerrar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ingresar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="page-section bg-dark" id="team">
+      <div class="container my-5">
+          <div class="text-center">
+              <h5 class="section-subheading text-light">Somos un grupo de estudiantes de la Academia Rolling Code que nos gusta diseñar páginas de turismo por la Argentina, en esta oportunidad te traemos información de las principales atracciones que tienen las diferentes regiones de nuestra Republica Argentina</h5>
+          </div>
+          <div class="row my-5">
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="./css/imagenes/82b24b14-813c-4558-b6cf-438a19c96351.JPG" alt="..." />
+                      <h4 class="text-light">Valeria Sandoval</h4>
+                      <p class="text-light">Developer Full Stack</p>
+                      <a class="btn btn-light btn-social mx-2" href="./error404.html" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="./css/imagenes/WhatsApp Image 2022-02-26 at 3.51.31 AM.jpg" alt="..." />
+                      <h4 class="text-light">Manuel Torres</h4>
+                      <p class="text-light">Developer Full Stack</p>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="./css/imagenes/rosario.jpg" alt="..." />
+                      <h4 class="text-light">Rosario Blac Sleiman</h4>
+                      <p class="text-light">Developer Full Stack</p>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"> ¿Queres ser parte del equipo? Envianos tu Curriculum a <a href="https://www.youtube.com/watch?v=tVKtLfFD8Po">manurovale@gmail.com</a> y lo analizaremos</p></div>
+          </div>
+      </div>
+  </section>
+  <footer class="footer py-4 footer-style d-flex justify-content-center">
+    <div class="container">
+        <div class="row align-items-center text-light">
+            <div class="col-lg-3 text-lg-start">Copyright 2023 &copy; turismo@argentina</div>
+            <div class="col-lg-3 my-3 my-lg-0 footer-style">
+              <img class="imagennav" src="./css/imagenes/WhatsApp Image 2022-12-06 at 19.11.47.jpeg" alt="">
+                <a class="btn  btn-social mx-2" href="#!" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-lg-6 text-lg-end text-light">
+                <p>Desarrollado por Manuel Torres - Rosario Blac Sleiman - Valeria Sandoval</p>
+            </div>
+        </div>
+    </div>
+</footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
